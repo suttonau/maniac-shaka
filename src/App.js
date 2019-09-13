@@ -1,9 +1,11 @@
 import React from 'react'
-import Player from './features/player'
+import World from './features/world'
 
 function App () {
   return (
-    <div><Player /></div>
+    <div>
+      <World />
+    </div>
   )
 }
 
