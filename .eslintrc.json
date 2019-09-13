@@ -20,5 +20,36 @@
     "plugins": [
         "eslint-plugin-standard"
     ],
-    "rules": {}
+    "rules": {
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "never"
+        ],
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "import/no-unresolved": [
+            0
+        ],
+        "no-console": [
+            0
+        ],
+        "import/no-unassigned-import": 0,
+        "eqeqeq": [
+            "error",
+            "always"
+        ],
+        "no-unused-vars": [
+            0
+        ]
+    }
 }
