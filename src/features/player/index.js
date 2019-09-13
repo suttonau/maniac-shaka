@@ -13,7 +13,7 @@ function Player (props) {
         backgroundImage: `url(${walkSprite})`,
         backgroundPosition: '12.5% 5%',
         width: '70px',
-        height: '80px'
+        height: '70px'
       }}
     />
   )
