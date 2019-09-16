@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import walkSprite from './player-walk.png'
 import handleMovement from './movement'
@@ -18,6 +19,11 @@ function Player (props) {
     />
   )
 }
+
+// Player.propTypes = {
+//   top: PropTypes.number,
+//   left: PropTypes.number
+// }
 
 function mapStateToProps (state) {
   return {
